@@ -61,6 +61,8 @@ console.log("Division: x + y " + division);
 
 const squareOfX = x * x;
 
+console.log("The square of X is " + squareOfX);
+
 console.log("The square of X in " + squareOfX);
 
 
@@ -80,22 +82,66 @@ console.log("The square of X in " + squareOfX);
 
 // ****************************************************TASK 3****************************************************
 
-const driver = "Tammy";
 const age = 42;
+const minDrivingAge = 17;
 
-const isOldEnoughToDrive = (age > 17);
+const isOldEnoughToDrive = (age > minDrivingAge);
 
-console.log( driver + " is old enough to drive");
+console.log( "Is Tammy is old enough to drive");
 
+// ***************************************************Homework ************************************************
+function addNumbers(x,y) {
+    return x + y
+};
 
-
-
-
-
-
-
-
-
-
+function subNumbers (x,y) {
+    return x - y
+};
 
 
+
+const calculator = { 
+    add: addNumbers ,
+    subtract: subNumbers ,
+    //multiply: function  multiNumbers (x,y) {
+    //    return x * y;
+  //  };
+
+//console.log(calculator.add(2,3))
+
+
+
+//const mentors = 20;
+//const students = 24;
+//const pizzas = 25;
+
+//const isMoreStudentsThanVolunteers = students > mentors;
+//console.log ("Are there more students than volunteers?" + isMoreStudentsThanVolunteers);
+
+//const isLessStudentsThanPizza = students < pizzas;
+//console.log("Are there fewer number of students than there are boxes of pizza" + isLessStudentsThanPizza);
+
+
+
+
+//********************* Homework to compare the ages of two people **************************
+
+//const gigi = {
+    age: 12,
+    name: "gigi",
+};
+
+const jimy ={
+    age: 122,
+    name: "jimy",
+}
+
+const pinky = {
+    age: 45,
+    name: "pinky"
+};
+
+function whoIsOlder (personA, personB) {
+    const isAGreaterThanB = personA.age > personB.age
+    const ageDifference = personA.age - personB.age
+}
