@@ -7,10 +7,12 @@ const randomNumber = Math.round(Math.random() * 10);
 let counter = 0;
 
 while(counter < 10) {
-    const randomNumber
+    const randomNumber = Math.round(Math.random() * 10);
+
 console.log("This is a random number ", randomNumber)
-}
 counter++
+}
+
 
 
 
