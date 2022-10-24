@@ -26,7 +26,7 @@
 
 const numbers = [5, 325, 67, 100000, 150];
 
-numbers.sort();
+numbers.sort().reverse();
 
 console.log(numbers);
 
@@ -50,3 +50,9 @@ const people = [
 function compare(a, b) {
   return a.age - b.age;
 }
+ 
+const peopleNames = people.sort(compare).map(item => item.name);
+
+console.log(peopleNames);
+
+
